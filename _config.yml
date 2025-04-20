@@ -37,13 +37,21 @@ keywords: []
 # It also used by the `jekyll-seo-tag` plugin.
 logo: /assets/img/short_time_img.jpg
 
-# This should be the same author as first entry in `_data/authors.yml`.
+# # This should be the same author as first entry in `_data/authors.yml`.
+# author:
+#   # Used by `jekyll-feed`:
+#   name: <Zhenhao> <Ni>
+#   email: <zhenhaoni4@gmail.com>
+#   # # Used by `jekyll-seo-tag`:
+#   twitter: <Zhen Hao Ni>
+
 author:
-  # Used by `jekyll-feed`:
-  name: <Zhenhao> <Ni>
-  email: <zhenhaoni4@gmail.com>
-  # # Used by `jekyll-seo-tag`:
-  twitter: <Zhen Hao Ni>
+  name: Zhenhao Ni
+  email: zhenhaoni4@gmail.com
+  social:
+    email: zhenhaoni4@gmail.com
+    github: Nizhenhao-3
+    twitter: ZhenHaoNi1
 
 # Add links to the sidebar.
 menu:
