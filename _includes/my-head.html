@@ -1,4 +1,13 @@
 <!-- Add HTML tags here to be included in the head. You can delete the below: -->
+
+
+<!-- favicon -->
+<link rel="shortcut icon" href="{{ '/assets/favicon/favicon.ico' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ 'assets/favicon/web-app-manifest-192x192.png' | relative_url }}">
+<link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' | relative_url }}">
+
+
+
 <link rel="dns-prefetch" href="https://assets.gumroad.com">
 <script type="module">
   const loadJS = x => new Promise(r => window.loadJS(x).addEventListener('load', r));
@@ -10,7 +19,7 @@
         p1 = p1 || loadJS('https://gumroad.com/js/gumroad-embed.js');
         await p1;
         !embedCreated && await new Promise(function check1(res) {
-          if (typeof createGumroadEmbed !== 'undefined')  {
+          if (typeof createGumroadEmbed !== 'undefined') {
             embedCreated = 1;
             res(createGumroadEmbed());
           }
