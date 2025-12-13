@@ -319,6 +319,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - functions
+  - example
 include:
   - _routes.json
   - .well-known
@@ -424,4 +425,4 @@ jekyll_compose:
         path: /assets/img/sidebar-bg.jpg
       links:
         - title: Project Link
-          url: https://example.com
+          url: #

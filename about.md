@@ -15,7 +15,6 @@ hide_description: true
 I'm passionate about advancing the field of **Robot Learning** and **Simulation**.  
 {:.lead}
 
-1. this list will be replaced by the toc
 {:toc .large-only}
 
 My research focuses on developing intelligent robotic systems that can learn from experience and adapt to complex, real-world environments. Through simulation and machine learning, I explore how robots can acquire new skills, improve their performance, and operate safely in dynamic settings.
