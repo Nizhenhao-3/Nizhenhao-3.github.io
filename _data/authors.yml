@@ -8,7 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: |
-    I love thinking about the universe, and my journey started with Doraemon and curiosity.
+    Hi, I'm **Zhenhao Ni**. I'm passionate about Robot Learning and Simulation, exploring how intelligent systems can learn and adapt in complex environments. My research focuses on developing robotic systems that can transfer learned behaviors from simulation to reality, enabling safer and more efficient autonomous operations.
 
   # This photo will be used in the about section
   picture:
