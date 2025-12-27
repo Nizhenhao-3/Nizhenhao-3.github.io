@@ -11,13 +11,14 @@ hide_description: true
 
 I am a Remote Research Intern at the [Physical Superintelligence (PSI) Lab](https://psi-lab.ai/) at the **University of Southern California**, supervised by Prof. [Yue Wang](https://yuewang.xyz/), starting from July 2025. My research interests lie in **Simulation** and **Embodied AI**, with a particular focus on addressing data scarcity in robotic learning.
 
-{:.message style="color: red"}
+{:.message style="background-color: #e3f2fd; padding: 15px; border-radius: 5px; border: 1px solid #90caf9; color: #0d47a1;"}
 **I am looking for Fall 2027 PhD opportunities and am open to discussing potential research collaborations. Please contact me if you are interested! :)**
 
 ## News
 
-<!-- - **[July 2025]** Joined USC PSI Lab as a Research Intern. -->
+- **[July 2025]** Joined USC PSI Lab as a Research Intern.
 - **[Date]** [Template] Paper accepted to [Conference].
+{:.style="background-color: #f8f9fa; padding: 15px; border-radius: 5px; border: 1px solid #e9ecef;"}
 
 ## Publications
 
