@@ -2,7 +2,7 @@
 layout: about
 image: /assets/img/short_time_img.jpg
 description: >
-  About Zhenhao Ni - Research in Robot Learning and Simulation
+  About Zhenhao Ni 
 hide_description: true
 ---
 
