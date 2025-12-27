@@ -10,48 +10,39 @@ hide_description: true
 
 <!--author-->
 
-## Research Interests
+I am a Remote research Intern at the [Physical Superintelligence (PSI) Lab](https://psi-lab.ai/) at the **University of Southern California**, supervised by Prof. [Yue Wang](https://yuewang.xyz/), starting from July 2025.
 
-I'm passionate about advancing the field of **Robot Learning** and **Simulation**.  
-{:.lead}
-
-{:toc .large-only}
-
-My research focuses on developing intelligent robotic systems that can learn from experience and adapt to complex, real-world environments. Through simulation and machine learning, I explore how robots can acquire new skills, improve their performance, and operate safely in dynamic settings.
-
-## Background
-
-I'm currently working on projects that bridge the gap between simulation and reality, enabling robots to transfer learned behaviors from virtual environments to physical systems. This work involves:
-
-- **Reinforcement Learning** for robotic control
-- **Sim-to-Real Transfer** techniques
-- **Robotic Manipulation** and **Navigation**
-- **Multi-Agent Systems** in robotics
-
-## Education & Experience
+My research interests lie in **Simulation** and **Embodied AI**, with a particular focus on addressing data scarcity in robotic learning.
 
 {:.message}
-More details about my academic background and professional experience will be added here.
+**I am looking for Fall 2027 PhD opportunities and am open to discussing potential research collaborations. Please contact me if you are interested! :)**
+
+## News
+
+- **[July 2025]** Joined USC PSI Lab as a Research Intern.
+- **[Date]** [Template] Paper accepted to [Conference].
 
 ## Publications
 
-{:.message}
-My research publications and papers will be listed here.
+*   **Paper Title**
+    <br>
+    **Zhenhao Ni**, Co-author
+    <br>
+    *Conference/Journal*, Year.
+    <br>
+    [[PDF]](#) [[Code]](#) [[Project Page]](#)
 
-<!--posts-->
+## Education
 
-## Recent Blog Posts
+*   **University Name**
+    <br>
+    *Degree*, Major
+    <br>
+    *Date - Date*
 
-Check out my latest thoughts and updates on robot learning and simulation:
+## Honors & Awards
 
-<!--projects-->
-
-## Projects
-
-Explore some of my recent projects and contributions to the field:
-
-{:.message}
-Project details and links will be added here.
+*   Award Name, Organization, Year
 
 ## Contact
 
