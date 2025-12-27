@@ -8,18 +8,15 @@ hide_description: true
 
 # About
 
-<!--author-->
 
-Hi, I’m **Zhenhao Ni**. I’m passionate about **Robot Learning** and **Simulation**, exploring how intelligent systems can learn and adapt in complex environments. My research focuses on developing robotic systems that can transfer learned behaviors from simulation to reality, enabling safer and more efficient autonomous operations.
-
-I am a Research Intern at the [Physical Superintelligence (PSI) Lab](https://psi-lab.ai/) at the **University of Southern California**, supervised by Prof. [Yue Wang](https://yuewang.xyz/), starting from July 2025. My research interests lie in **Simulation** and **Embodied AI**, with a particular focus on addressing data scarcity in robotic learning.
+I am a Remote Research Intern at the [Physical Superintelligence (PSI) Lab](https://psi-lab.ai/) at the **University of Southern California**, supervised by Prof. [Yue Wang](https://yuewang.xyz/), starting from July 2025. My research interests lie in **Simulation** and **Embodied AI**, with a particular focus on addressing data scarcity in robotic learning.
 
 {:.message style="color: red"}
 **I am looking for Fall 2027 PhD opportunities and am open to discussing potential research collaborations. Please contact me if you are interested! :)**
 
-## News{: style="color: red"}
+## News
 
-- **[July 2025]** Joined USC PSI Lab as a Research Intern.
+<!-- - **[July 2025]** Joined USC PSI Lab as a Research Intern. -->
 - **[Date]** [Template] Paper accepted to [Conference].
 
 ## Publications
@@ -32,17 +29,14 @@ I am a Research Intern at the [Physical Superintelligence (PSI) Lab](https://psi
     <br>
     [[PDF]](#) [[Code]](#) [[Project Page]](#)
 
-## Education
+<!-- ## Education
 
 *   **University Name**
     <br>
     *Degree*, Major
     <br>
-    *Date - Date*
+    *Date - Date* -->
 
-## Honors & Awards
-
-*   Award Name, Organization, Year
 
 ## Contact
 
