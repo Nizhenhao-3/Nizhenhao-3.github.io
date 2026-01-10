@@ -12,3 +12,36 @@
     margin: 1rem 0;
   }
 }
+
+/* Custom News Box Style */
+.news-box {
+  background-color: #f3e5f5; /* Light purple/lavender */
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e1bee7;
+  max-height: 250px; /* Fixed length (height limit) */
+  overflow-y: auto; /* Scrollable */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Custom Publication List Style */
+.publication-list {
+  list-style: none; /* Remove default bullets for a cleaner card look */
+  padding-left: 0;
+}
+
+.publication-list li {
+  margin-bottom: 1.5rem;
+  padding: 15px;
+  background-color: #fff;
+  border-left: 4px solid #e0e0e0;
+  border-radius: 0 8px 8px 0;
+  transition: all 0.3s ease;
+}
+
+.publication-list li:hover {
+  border-left-color: #0d47a1; /* Highlight color on hover */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background-color: #fafafa;
+  transform: translateX(5px); /* Subtle movement */
+}
