@@ -56,8 +56,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: About
-    url: /about/
+  # - title: About
+  #   url: /about/
   - title: Research
     url: /research/
 
