@@ -16,9 +16,12 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 
 ## News
 
+<div class="news-box" markdown="1">
+
 <!-- - **[July 2025]** Joined USC PSI Lab as a Research Intern. -->
 - **[Date]** [Template] Paper accepted to [Conference].
-{: .news-box }\n
+
+</div>
 
 ## Publications
 
