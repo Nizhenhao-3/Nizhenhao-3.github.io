@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: about
 image: /assets/img/short_time_img.jpg
 description: >
@@ -54,4 +54,4 @@ Feel free to reach out if you're interested in collaboration or have questions a
 ---
 
 *When I consider the short duration of my life, swallowed up in the eternity before and after… I am frightened, and astonished to see myself here rather than there.*
-{:.lead}
+{:.lead}  -->
