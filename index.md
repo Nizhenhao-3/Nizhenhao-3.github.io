@@ -29,24 +29,23 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 
 ## Publications
 
-* <div style="display: flex; gap: 20px; align-items: flex-start; width: 100%;">
-    <img src="assets/img/psi0.gif" alt="Ψ₀ Teaser" width="220" style="flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" />
+* <div style="display: flex; gap: 20px; align-items: center; width: 100%; border: 1px solid #e1e4e8; border-radius: 8px; padding: 15px; margin-bottom: 20px; background-color: #f9f9f9; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+    <img src="assets/img/psi0.gif" alt="Ψ₀ Teaser" width="300" style="flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" />
+    
     <div style="flex-grow: 1;">
-      <strong style="font-size: 1.1em;">Ψ₀: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation</strong>
-      <br>
+      <strong style="font-size: 1.1em; display: block; margin-bottom: 5px;">Ψ₀: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation</strong>
       Songlin Wei*, Hongyi Jing*, Boqian Li*, Zhenyu Zhao*, Jiageng Mao, <b>Zhenhao Ni</b>, Sicheng He, Jie Liu, Xiawei Liu, Kaidi Kang, Sheng Zang, Marco Pavone, Di Huang, Yue Wang†
       <br>
       <em style="color: #555;">Arxiv Preprint</em>, 2026.
       <br>
       Ψ₀ is an open vision-language-action (VLA) model for dexterous humanoid loco-manipulation.
-      <div style="margin-top: 8px;">
-        <a href="https://arxiv.org/abs/2603.12263" target="_blank" style="margin-right: 10px; font-weight: bold;">[arXiv]</a>
+      <div style="margin-top: 15px;">
+        <a href="https://arxiv.org/abs/2603.12263" target="_blank" style="margin-right: 20px; font-weight: bold;">[arXiv]</a>
         <a href="https://psi-lab.ai/Psi0" target="_blank" style="font-weight: bold;">[Project Page]</a>
       </div>
     </div>
   </div>
 {: .publication-list }
-
 ## Education 
 
 * **Soochow University**
