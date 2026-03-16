@@ -36,8 +36,9 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
       <strong style="font-size: 1.1em; display: block; margin-bottom: 5px;">Ψ₀: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation</strong>
       Songlin Wei*, Hongyi Jing*, Boqian Li*, Zhenyu Zhao*, Jiageng Mao, <b>Zhenhao Ni</b>, Sicheng He, Jie Liu, Xiawei Liu, Kaidi Kang, Sheng Zang, Marco Pavone, Di Huang, Yue Wang†
       <br>
-      <em style="color: #555;">Arxiv Preprint</em>, 2026.
+      <em style="color: #020202ff;">Arxiv Preprint</em>, 2026.
       <br>
+
       Ψ₀ is an open vision-language-action (VLA) model for dexterous humanoid loco-manipulation.
       <div style="margin-top: 15px;">
         <a href="https://arxiv.org/abs/2603.12263" target="_blank" style="margin-right: 20px; font-weight: bold;">[arXiv]</a>
