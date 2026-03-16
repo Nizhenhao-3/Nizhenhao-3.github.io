@@ -29,18 +29,26 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 
 ## Publications
 
-* <img src="assets/img/psi0.gif" alt="Ψ₀ Teaser" width="180" style="float: left; margin-right: 20px; margin-bottom: 10px;" />
-  **Ψ₀: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation**
-  <br>
-  <b>Songlin Wei*</b>, Hongyi Jing*, Boqian Li*, Zhenyu Zhao*, Jiageng Mao, **Zhenhao Ni**, Sicheng He, Jie Liu, Xiawei Liu, Kaidi Kang, Sheng Zang, Marco Pavone, Di Huang, Yue Wang†
-  <br>
-  *Arxiv Preprint*, 2026.
-  <br>
-  Ψ₀ is an open vision-language-action (VLA) model for dexterous humanoid loco-manipulation.
-  <br>
-  [[arXiv]](https://arxiv.org/abs/2603.12263) [[Project Page]](https://psi-lab.ai/Psi0)
-  <div style="clear: both;"></div>
+<div style="display: flex; gap: 20px; align-items: flex-start; margin-bottom: 30px;">
+  <img src="assets/img/psi0.gif" alt="Ψ₀ Teaser" width="220" style="flex-shrink: 0; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  
+  <div>
+    <strong style="font-size: 1.1em;">Ψ₀: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation</strong>
+    <br>
+    Songlin Wei*, Hongyi Jing*, Boqian Li*, Zhenyu Zhao*, Jiageng Mao, <b>Zhenhao Ni</b>, Sicheng He, Jie Liu, Xiawei Liu, Kaidi Kang, Sheng Zang, Marco Pavone, Di Huang, Yue Wang†
+    <br>
+    <em style="color: #555;">Arxiv Preprint</em>, 2026.
+    <br>
+    Ψ₀ is an open vision-language-action (VLA) model for dexterous humanoid loco-manipulation.
+    <div style="margin-top: 8px;">
+      <a href="https://arxiv.org/abs/2603.12263" target="_blank" style="margin-right: 10px; font-weight: bold;">[arXiv]</a>
+      <a href="https://psi-lab.ai/Psi0" target="_blank" style="font-weight: bold;">[Project Page]</a>
+    </div>
+  </div>
+</div>
+
 {: .publication-list }
+
 ## Education 
 
 * **Soochow University**
