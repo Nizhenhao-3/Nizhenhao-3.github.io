@@ -28,7 +28,8 @@ description: >
   Personal website of Zhenhao Ni. Research in Robot Learning and Simulation. Exploring intelligent robotic systems and sim-to-real transfer.
 
 # A shorter description for the sidebar.
-tagline: When I consider the short duration of my life, swallowed up in the eternity before and after… I am frightened, and astonished to see myself here rather than there.
+tagline: 
+# When I consider the short duration of my life, swallowed up in the eternity before and after… I am frightened, and astonished to see myself here rather than there.
 
 # A list of keywords for your blog
 keywords: [Robot learning, SIMulation]
