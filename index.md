@@ -30,7 +30,7 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 ## Publications
 
 * <div style="display: flex; gap: 20px; align-items: center; width: 100%; border: 1px solid #e1e4e8; border-radius: 8px; padding: 15px; margin-bottom: 20px; background-color: #f9f9f9; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-    <img src="assets/img/psi0.gif" alt="Ψ₀ Teaser" width="450" style="flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" />
+    <img src="assets/img/psi0.gif" alt="Ψ₀ Teaser" width="800" style="flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" />
     
     <div style="flex-grow: 1;">
       <strong style="font-size: 1.1em; display: block; margin-bottom: 5px;">Ψ₀: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation</strong>
