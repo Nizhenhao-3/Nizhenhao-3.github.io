@@ -20,7 +20,7 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 
 <div class="news-box" markdown="1">
 
-- **[Mar 2026]** Our paper <a href="https://psi-lab.ai/Psi0" style="color: #0d47a1; font-weight: bold;">Ψ₀</a> was released on arXiv!
+<!-- - **[Mar 2026]** Our paper <a href="https://psi-lab.ai/Psi0" style="color: #0d47a1; font-weight: bold;">Ψ₀</a> was released on arXiv! -->
 <!-- - **[July 2025]** Joined USC PSI Lab as a Research Intern. -->
 <!-- - **[Date]** [Template] Paper accepted to [Conference]. -->
 
