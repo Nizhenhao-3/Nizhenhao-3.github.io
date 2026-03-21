@@ -40,9 +40,13 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
       <br>
 
       Ψ₀ is an open vision-language-action (VLA) model for dexterous humanoid loco-manipulation.
-      <div style="margin-top: 15px;">
+      <div style="margin-top: 15px; display: flex; align-items: center; flex-wrap: wrap;">
         <a href="https://arxiv.org/abs/2603.12263" target="_blank" style="margin-right: 20px; font-weight: bold;">[arXiv]</a>
-        <a href="https://psi-lab.ai/Psi0" target="_blank" style="font-weight: bold;">[Project Page]</a>
+        <a href="https://psi-lab.ai/Psi0" target="_blank" style="margin-right: 20px; font-weight: bold;">[Project Page]</a>
+        <a href="https://github.com/physical-superintelligence-lab/Psi0" target="_blank" style="margin-right: 8px; font-weight: bold;">[Code]</a>
+        <a href="https://github.com/physical-superintelligence-lab/Psi0" target="_blank" style="display: flex; align-items: center; border-bottom: none; text-decoration: none;">
+          <img src="https://img.shields.io/github/stars/physical-superintelligence-lab/Psi0?style=social" alt="GitHub stars" style="margin: 0; box-shadow: none; border-radius: 0; background: none;" />
+        </a>
       </div>
     </div>
   </div>
@@ -79,6 +83,3 @@ Feel free to reach out if you're interested in collaboration or have questions a
 
 {:.message style="background-color: #e3f2fd; padding: 15px; border-radius: 5px; border: 1px solid #90caf9; color: #0d47a1;"}
 **🔥 I am actively looking for Fall 2027 PhD opportunities! I am also open to discussing potential research collaborations. Please feel free to contact me!** -->
-
-
-
