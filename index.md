@@ -9,6 +9,8 @@ hide_description: true
 # About
 
 I am a senior undergraduate student majoring in **Robotics Engineering** at <a href="https://www.suda.edu.cn/" target="_blank" style="color: #0d47a1; font-weight: bold;">Soochow University</a>. 
+
+
 My current research interests primarily focus on **Benchmarking-oriented Simulation**, **Humanoid Loco-manipulation**, and **Dexterous Manipulation**.
 
 <!-- 
