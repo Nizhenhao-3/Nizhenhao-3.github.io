@@ -8,7 +8,8 @@ hide_description: true
 
 # About
 
-I am a senior undergraduate student majoring in **Robotics Engineering** at <span style="color: #0d47a1; font-weight: bold;">Soochow University</span>.
+I am a senior undergraduate student majoring in **Robotics Engineering** at <a href="https://www.suda.edu.cn/" target="_blank" style="color: #0d47a1; font-weight: bold;">Soochow University</a>. 
+My current research interests primarily focus on **Benchmarking-oriented Simulation**, **Humanoid Loco-manipulation**, and **Dexterous Manipulation**.
 
 <!-- 
 I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color: #0d47a1;">Physical Superintelligence (PSI) Lab</a> at the <span style="color: #0d47a1; font-weight: bold;">University of Southern California</span>,collaborating with <a href="https://songlin.github.io/" style="color: #0d47a1;">Songlin Wei</a> and supervised by Prof. <a href="https://yuewang.xyz/" style="color: #0d47a1;">Yue Wang</a>, since July 2025. My research interests lie in <span style="color: #0d47a1; font-weight: bold;">Simulation</span> and <span style="color: #0d47a1; font-weight: bold;">Embodied AI</span>, with a particular focus on addressing data scarcity in robotic learning. 
