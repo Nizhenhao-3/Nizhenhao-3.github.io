@@ -42,7 +42,7 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
       <span style="display: inline-block; margin: 6px 0 4px 0; padding: 3px 10px; border-radius: 999px; background-color: #e3f2fd; color: #0d47a1; font-weight: 700;">Robotics: Science and Systems (RSS), 2026</span>
       <br>
 
-      Ψ₀ is an open vision-language-action (VLA) model for dexterous humanoid loco-manipulation.
+
       <div style="margin-top: 15px; display: flex; align-items: center; flex-wrap: wrap;">
         <a href="https://arxiv.org/abs/2603.12263" target="_blank" style="margin-right: 20px; font-weight: bold;">[arXiv]</a>
         <a href="https://psi-lab.ai/Psi0" target="_blank" style="margin-right: 20px; font-weight: bold;">[Project Page]</a>
