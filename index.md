@@ -34,15 +34,15 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 
   <div class="news-item">
     <time>May 29, 2026</time>
-    <p><span class="news-award">Award</span> <a href="https://psi-lab.ai/Psi0">Ψ₀</a> received the CVPR 2026 @ 3D-LLM/VLA Best Paper Award.</p>
+    <p><a href="https://psi-lab.ai/Psi0">Ψ₀</a> received the <strong class="award-highlight">CVPR 2026 @ 3D-LLM/VLA Best Paper Award</strong>.</p>
   </div>
   <div class="news-item">
     <time>May 01, 2026</time>
-    <p><span class="news-rss">RSS</span> <a href="https://psi-lab.ai/Psi0">Ψ₀</a> accepted to RSS 2026.</p>
+    <p><a href="https://psi-lab.ai/Psi0">Ψ₀</a> accepted to RSS 2026.</p>
   </div>
   <div class="news-item">
     <time>Mar 2026</time>
-    <p><span class="news-release">Release</span> Our paper <a href="https://psi-lab.ai/Psi0">Ψ₀</a> has been released.</p>
+    <p>Our paper <a href="https://psi-lab.ai/Psi0">Ψ₀</a> has been released.</p>
   </div>
 <!-- - **[July 2025]** Joined USC PSI Lab as a Research Intern. -->
 <!-- - **[Date]** [Template] Paper accepted to [Conference]. -->
