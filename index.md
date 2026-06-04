@@ -62,7 +62,7 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
       </p>
       <div class="publication-badges">
         <span class="venue-badge">Robotics: Science and Systems (RSS), 2026</span>
-        <span class="award-badge"><span class="award-context">CVPR 2026 @ 3D-LLM/VLA </span> <span class="award-highlight" Best Paper Award</span></span>
+        <span class="award-badge"><span class="award-context">CVPR 2026 @ 3D-LLM/VLA</span> <span class="award-highlight" Best Paper Award</span></span>
       </div>
 
 
