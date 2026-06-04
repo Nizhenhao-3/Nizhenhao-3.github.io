@@ -23,6 +23,8 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 
 <div class="news-box" markdown="1">
 
+-  **[May 29, 2026]** 🏆 <a href="https://psi-lab.ai/Psi0" style="color: #0d47a1; font-weight: bold;">Ψ₀</a> received the CVPR 2026 @ 3D-LLM/VLA Best Paper Award.
+-  **[May 01, 2026]** 🎉 <a href="https://psi-lab.ai/Psi0" style="color: #0d47a1; font-weight: bold;">Ψ₀</a> accepted to RSS 2026.
 -  **[Mar 2026]** 🚀 Our paper <a href="https://psi-lab.ai/Psi0" style="color: #0d47a1; font-weight: bold;">Ψ₀</a> has been released !
 <!-- - **[July 2025]** Joined USC PSI Lab as a Research Intern. -->
 <!-- - **[Date]** [Template] Paper accepted to [Conference]. -->
@@ -40,6 +42,7 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
       Songlin Wei*, Hongyi Jing*, Boqian Li*, Zhenyu Zhao*, Jiageng Mao, <b>Zhenhao Ni</b>, Sicheng He, Jie Liu, Xiawei Liu, Kaidi Kang, Sheng Zang, Marco Pavone, Di Huang, Yue Wang†
       <br>
       <span style="display: inline-block; margin: 6px 0 4px 0; padding: 3px 10px; border-radius: 999px; background-color: #e3f2fd; color: #0d47a1; font-weight: 700;">Robotics: Science and Systems (RSS), 2026</span>
+      <span style="display: inline-block; margin: 6px 0 4px 6px; padding: 3px 10px; border-radius: 999px; background-color: #fff3e0; color: #e65100; font-weight: 700;">CVPR 2026 @ 3D-LLM/VLA Best Paper Award</span>
       <br>
 
 

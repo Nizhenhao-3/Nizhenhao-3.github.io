@@ -6,12 +6,15 @@ image: assets/img/psi0.gif
 categories: research
 author: "Zhenhao Ni"
 authors: "Songlin Wei, Hongyi Jing*, Boqian Li*, Zhenyu Zhao*, Jiageng Mao, <b>Zhenhao Ni</b>, Sicheng He, Jie Liu, Xiawei Liu, Kaidi Kang, Sheng Zang, Marco Pavone, Di Huang, Yue Wang†"
-venue: "Arxiv Preprint"
+venue: "Robotics: Science and Systems (RSS), 2026"
+award: "CVPR 2026 @ 3D-LLM/VLA Best Paper Award"
 website: https://psi-lab.ai/Psi0
 arxiv: https://arxiv.org/abs/2603.12263
 ---
 
 Ψ₀ is an open vision-language-action (VLA) model for dexterous humanoid loco-manipulation. 
+
+**Award:** CVPR 2026 @ 3D-LLM/VLA Best Paper Award.
 
 ### Links
 * **Project Page:** [https://psi-lab.ai/Psi0](https://psi-lab.ai/Psi0)
