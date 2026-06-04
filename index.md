@@ -34,7 +34,7 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 
   <div class="news-item">
     <time>May 29, 2026</time>
-    <p><a href="https://psi-lab.ai/Psi0">Ψ₀</a> received the <strong class="award-highlight">CVPR 2026 @ 3D-LLM/VLA Best Paper Award</strong>.</p>
+    <p><a href="https://psi-lab.ai/Psi0">Ψ₀</a> received the CVPR 2026 @ 3D-LLM/VLA <strong class="award-highlight">Best Paper Award</strong>.</p>
   </div>
   <div class="news-item">
     <time>May 01, 2026</time>
@@ -62,7 +62,7 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
       </p>
       <div class="publication-badges">
         <span class="venue-badge">Robotics: Science and Systems (RSS), 2026</span>
-        <span class="award-badge">CVPR 2026 @ 3D-LLM/VLA Best Paper Award</span>
+        <span class="award-badge">CVPR 2026 @ 3D-LLM/VLA <span class="award-highlight">Best Paper Award</span></span>
       </div>
 
 
