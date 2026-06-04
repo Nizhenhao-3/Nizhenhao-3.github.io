@@ -321,6 +321,7 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - docs
   - functions
 include:
   - _routes.json
