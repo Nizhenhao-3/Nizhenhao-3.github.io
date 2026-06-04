@@ -8,10 +8,19 @@ hide_description: true
 
 # About
 
-I am a senior undergraduate student majoring in Robotics Engineering at <a href="https://www.suda.edu.cn/" target="_blank" style="color: #0d47a1; font-weight: bold;">Soochow University</a>. 
+<section class="home-intro">
+  <div>
+    <p class="intro-kicker">Robotics Engineering · Embodied AI</p>
+    <p class="intro-lead">I am a senior undergraduate student majoring in Robotics Engineering at <a href="https://www.suda.edu.cn/" target="_blank">Soochow University</a>.</p>
+    <p>My current research interests primarily focus on Benchmarking-oriented Simulation, Humanoid Loco-manipulation, and Dexterous Manipulation.</p>
+    <div class="research-tags">
+      <span>Benchmarking Simulation</span>
+      <span>Humanoid Loco-manipulation</span>
+      <span>Dexterous Manipulation</span>
+    </div>
+  </div>
+</section>
 
-
-My current research interests primarily focus on Benchmarking-oriented Simulation, Humanoid Loco-manipulation, and Dexterous Manipulation.
 
 <!-- 
 I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color: #0d47a1;">Physical Superintelligence (PSI) Lab</a> at the <span style="color: #0d47a1; font-weight: bold;">University of Southern California</span>,collaborating with <a href="https://songlin.github.io/" style="color: #0d47a1;">Songlin Wei</a> and supervised by Prof. <a href="https://yuewang.xyz/" style="color: #0d47a1;">Yue Wang</a>, since July 2025. My research interests lie in <span style="color: #0d47a1; font-weight: bold;">Simulation</span> and <span style="color: #0d47a1; font-weight: bold;">Embodied AI</span>, with a particular focus on addressing data scarcity in robotic learning. 
@@ -21,11 +30,20 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 
 ## News
 
-<div class="news-box" markdown="1">
+<div class="news-box">
 
--  **[May 29, 2026]** 🏆 <a href="https://psi-lab.ai/Psi0" style="color: #0d47a1; font-weight: bold;">Ψ₀</a> received the CVPR 2026 @ 3D-LLM/VLA Best Paper Award.
--  **[May 01, 2026]** 🎉 <a href="https://psi-lab.ai/Psi0" style="color: #0d47a1; font-weight: bold;">Ψ₀</a> accepted to RSS 2026.
--  **[Mar 2026]** 🚀 Our paper <a href="https://psi-lab.ai/Psi0" style="color: #0d47a1; font-weight: bold;">Ψ₀</a> has been released !
+  <div class="news-item">
+    <time>May 29, 2026</time>
+    <p><span class="news-award">Award</span> <a href="https://psi-lab.ai/Psi0">Ψ₀</a> received the CVPR 2026 @ 3D-LLM/VLA Best Paper Award.</p>
+  </div>
+  <div class="news-item">
+    <time>May 01, 2026</time>
+    <p><span class="news-rss">RSS</span> <a href="https://psi-lab.ai/Psi0">Ψ₀</a> accepted to RSS 2026.</p>
+  </div>
+  <div class="news-item">
+    <time>Mar 2026</time>
+    <p><span class="news-release">Release</span> Our paper <a href="https://psi-lab.ai/Psi0">Ψ₀</a> has been released.</p>
+  </div>
 <!-- - **[July 2025]** Joined USC PSI Lab as a Research Intern. -->
 <!-- - **[Date]** [Template] Paper accepted to [Conference]. -->
 
@@ -34,24 +52,26 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 
 ## Publications
 
-* <div style="display: flex; gap: 20px; align-items: center; width: 100%; border: 1px solid #e1e4e8; border-radius: 8px; padding: 15px; margin-bottom: 20px; background-color: #f9f9f9; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-    <img src="assets/img/psi0.gif" alt="Ψ₀ Teaser" width="300" style="flex-shrink: 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);" />
+* <div class="publication-card">
+    <img class="publication-media" src="assets/img/psi0.gif" alt="Ψ₀ Teaser" />
     
-    <div style="flex-grow: 1;">
-      <strong style="font-size: 1.1em; display: block; margin-bottom: 5px;">Ψ₀: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation</strong>
+    <div class="publication-content">
+      <strong class="publication-title">Ψ₀: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation</strong>
+      <p class="publication-authors">
       Songlin Wei*, Hongyi Jing*, Boqian Li*, Zhenyu Zhao*, Jiageng Mao, <b>Zhenhao Ni</b>, Sicheng He, Jie Liu, Xiawei Liu, Kaidi Kang, Sheng Zang, Marco Pavone, Di Huang, Yue Wang†
-      <br>
-      <span style="display: inline-block; margin: 6px 0 4px 0; padding: 3px 10px; border-radius: 999px; background-color: #e3f2fd; color: #0d47a1; font-weight: 700;">Robotics: Science and Systems (RSS), 2026</span>
-      <span style="display: inline-block; margin: 6px 0 4px 6px; padding: 3px 10px; border-radius: 999px; background-color: #fff3e0; color: #e65100; font-weight: 700;">CVPR 2026 @ 3D-LLM/VLA Best Paper Award</span>
-      <br>
+      </p>
+      <div class="publication-badges">
+        <span class="venue-badge">Robotics: Science and Systems (RSS), 2026</span>
+        <span class="award-badge">CVPR 2026 @ 3D-LLM/VLA Best Paper Award</span>
+      </div>
 
 
-      <div style="margin-top: 15px; display: flex; align-items: center; flex-wrap: wrap;">
-        <a href="https://arxiv.org/abs/2603.12263" target="_blank" style="margin-right: 20px; font-weight: bold;">[arXiv]</a>
-        <a href="https://psi-lab.ai/Psi0" target="_blank" style="margin-right: 20px; font-weight: bold;">[Project Page]</a>
-        <a href="https://github.com/physical-superintelligence-lab/Psi0" target="_blank" style="margin-right: 8px; font-weight: bold;">[Code]</a>
-        <a href="https://github.com/physical-superintelligence-lab/Psi0" target="_blank" style="display: flex; align-items: center; border-bottom: none; text-decoration: none;">
-          <img src="https://img.shields.io/github/stars/physical-superintelligence-lab/Psi0?style=social" alt="GitHub stars" style="margin: 0; box-shadow: none; border-radius: 0; background: none;" />
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2603.12263" target="_blank">arXiv</a>
+        <a href="https://psi-lab.ai/Psi0" target="_blank">Project Page</a>
+        <a href="https://github.com/physical-superintelligence-lab/Psi0" target="_blank">Code</a>
+        <a class="github-stars" href="https://github.com/physical-superintelligence-lab/Psi0" target="_blank">
+          <img src="https://img.shields.io/github/stars/physical-superintelligence-lab/Psi0?style=social" alt="GitHub stars" />
         </a>
       </div>
     </div>
