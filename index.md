@@ -33,8 +33,12 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 <div class="news-box">
 
   <div class="news-item">
+    <time>Jun 2026</time>
+    <p>Our paper <a href="https://psi-lab.ai/SIMPLE">SIMPLE</a> has been released.</p>
+  </div>
+  <div class="news-item">
     <time>May 29, 2026</time>
-    <p><a href="https://psi-lab.ai/Psi0">Ψ₀</a> received the <strong>CVPR 2026 @ 3D-LLM/VLA</strong> <strong class="award-highlight">Best Paper Award</strong>.</p>
+    <p><a href="https://psi-lab.ai/Psi0">Ψ₀</a> received the <strong class="award-context">CVPR 2026 @ 3D-LLM/VLA</strong> <strong class="award-highlight">Best Paper Award</strong>.</p>
   </div>
   <div class="news-item">
     <time>May 01, 2026</time>
@@ -53,6 +57,29 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 ## Publications
 
 * <div class="publication-card">
+    <img class="publication-media" src="assets/img/teaser.webp" alt="SIMPLE Teaser" />
+
+    <div class="publication-content">
+      <strong class="publication-title">SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation</strong>
+      <p class="publication-authors">
+      Songlin Wei*, <b>Zhenhao Ni</b>*, Jie Liu*, Zhenyu Zhao*, Junjie Ye, Hongyi Jing, Junkai Xia, Xiawei Liu, Michael Leong, Liang Heng, Di Huang, Yue Wang†
+      </p>
+      <div class="publication-badges">
+        <span class="venue-badge">arXiv, 2026</span>
+      </div>
+
+      <div class="publication-links">
+        <a href="https://arxiv.org/abs/2606.08278" target="_blank">arXiv</a>
+        <a href="https://psi-lab.ai/SIMPLE" target="_blank">Project Page</a>
+        <a href="https://github.com/physical-superintelligence-lab/SIMPLE" target="_blank">Code</a>
+        <a class="github-stars" href="https://github.com/physical-superintelligence-lab/SIMPLE" target="_blank">
+          <img src="https://img.shields.io/github/stars/physical-superintelligence-lab/SIMPLE?style=social" alt="GitHub stars" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+* <div class="publication-card">
     <img class="publication-media" src="assets/img/psi0.gif" alt="Ψ₀ Teaser" />
     
     <div class="publication-content">
@@ -62,7 +89,7 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
       </p>
       <div class="publication-badges">
         <span class="venue-badge">Robotics: Science and Systems (RSS), 2026</span>
-        <span class="award-badge">CVPR 2026 @ 3D-LLM/VLA <span class="award-highlight">Best Paper Award</span></span>
+        <span class="award-badge"><span class="award-context">CVPR 2026 @ 3D-LLM/VLA</span><span class="award-highlight">Best Paper Award</span></span>
       </div>
 
 

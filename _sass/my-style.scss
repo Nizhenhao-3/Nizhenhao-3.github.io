@@ -171,6 +171,10 @@ a {
   font-weight: 800;
 }
 
+.news-item .award-highlight {
+  margin-left: 0.22rem;
+}
+
 .award-context {
   color: #111827;
   font-weight: 800;
@@ -272,6 +276,9 @@ a {
 }
 
 .award-badge {
+  column-gap: 0.32rem;
+  row-gap: 0.1rem;
+  flex-wrap: wrap;
   border: 1px solid #fecaca;
   background: rgba(255, 255, 255, 0.74);
   color: #334155;
