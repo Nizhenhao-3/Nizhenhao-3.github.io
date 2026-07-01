@@ -104,24 +104,25 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
     </div>
   </div>
 {: .publication-list }
-## Education 
 
-* **Soochow University**
-    <br>
-    *B.Eng. (Senior)*, Robotics Engineering
-    <br>
-    *2022 - Expected 2026* 
+## Education
 
-
-
+<div class="profile-details">
+  <div class="detail-row">
+    <span class="detail-label">Soochow University</span>
+    <span class="detail-value">B.Eng. (Senior), Robotics Engineering · 2022 - Expected 2026</span>
+  </div>
+</div>
 
 ## Contact
 
-Feel free to reach out if you're interested in collaboration or have questions about my work:
+Feel free to reach out if you're interested in collaboration or have questions about my work.
 
-- **Email**: [zhenhaoni4@gmail.com](mailto:zhenhaoni4@gmail.com)
-- **GitHub**: [@Nizhenhao-3](https://github.com/Nizhenhao-3)
-- **Twitter**: [@ZhenHaoNi1](https://x.com/ZhenHaoNi1)
+<div class="contact-links">
+  <a href="mailto:zhenhaoni4@gmail.com">Email</a>
+  <a href="https://github.com/Nizhenhao-3" target="_blank">GitHub</a>
+  <a href="https://x.com/ZhenHaoNi1" target="_blank">Twitter</a>
+</div>
 
 ---
 
