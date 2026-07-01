@@ -73,7 +73,7 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
         <a href="https://psi-lab.ai/SIMPLE" target="_blank">Project Page</a>
         <a href="https://github.com/physical-superintelligence-lab/SIMPLE" target="_blank">Code</a>
         <a class="github-stars" href="https://github.com/physical-superintelligence-lab/SIMPLE" target="_blank">
-          <img src="https://img.shields.io/github/stars/physical-superintelligence-lab/SIMPLE?style=social" alt="GitHub stars" />
+          <img src="https://img.shields.io/github/stars/physical-superintelligence-lab/SIMPLE?style=social&cacheSeconds=60" alt="GitHub stars" />
         </a>
       </div>
     </div>
