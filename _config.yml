@@ -32,7 +32,7 @@ tagline:
 # When I consider the short duration of my life, swallowed up in the eternity before and after… I am frightened, and astonished to see myself here rather than there.
 
 # A list of keywords for your blog
-keywords: [Robot learning, SIMulation]
+keywords: [Robot Learning, Humanoid Robotics, Foundation Models, Simulation, Data Generation]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -66,8 +66,8 @@ menu:
     url: /blog/
   - title: Misc
     url: /misc/
-  # - title: CV
-  #   url: /assets/Zhenhao_CV.pdf
+  - title: CV
+    url: /assets/Zhenhao_CV.pdf
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -80,7 +80,7 @@ menu:
 #     url: /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright: © 2025 Zhenhao Ni.All rights reserved.
+copyright: © 2026 Zhenhao Ni. All rights reserved.
 
 # Format of the permalinks
 permalink: /:categories/:year-:month-:day-:title/

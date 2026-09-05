@@ -17,10 +17,7 @@ body {
   color: #172033;
   font-family: "Inter", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   letter-spacing: 0;
-  background:
-    linear-gradient(135deg, rgba(193, 18, 31, 0.045), transparent 18rem),
-    linear-gradient(225deg, rgba(29, 78, 216, 0.055), transparent 22rem),
-    linear-gradient(180deg, #f8fafc 0%, #ffffff 26rem);
+  background: #fff;
   background-attachment: fixed;
 }
 
@@ -44,6 +41,12 @@ h1 {
   font-size: 2.18rem;
   font-weight: 800;
   line-height: 1.12;
+}
+
+.sidebar h1,
+.sidebar h2,
+.sidebar .sidebar-title a {
+  color: #fff;
 }
 
 h2 {
@@ -153,10 +156,8 @@ a:hover {
 
 /* Custom News Box Style */
 .news-box {
-  max-height: 280px;
   margin-bottom: 2.35rem;
   padding: 0.15rem 0;
-  overflow-y: auto;
   border-top: 1px solid rgba(30, 41, 59, 0.12);
   border-bottom: 1px solid rgba(30, 41, 59, 0.12);
   scrollbar-width: thin;
@@ -243,31 +244,30 @@ a:hover {
 
 .publication-card {
   display: grid;
-  grid-template-columns: minmax(235px, 320px) minmax(0, 1fr);
+  grid-template-columns: minmax(180px, 28%) minmax(0, 1fr);
   gap: 1.35rem;
-  align-items: center;
+  align-items: start;
   width: 100%;
   padding: 1rem;
   border: 1px solid rgba(148, 163, 184, 0.28);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.052);
-  backdrop-filter: blur(8px);
-  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease, background 180ms ease;
+  box-sizing: border-box;
+  box-shadow: none;
+  transition: border-color 180ms ease;
 }
 
 .publication-card:hover {
   border-color: rgba(30, 41, 59, 0.2);
   background: rgba(255, 255, 255, 0.96);
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.082);
-  transform: translateY(-2px);
+  box-shadow: none;
 }
 
 .publication-media {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 10;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 7px;
   background: #f1f5f9;
   box-shadow: 0 1px 0 rgba(15, 23, 42, 0.04);
@@ -275,8 +275,7 @@ a:hover {
 }
 
 .publication-card:hover .publication-media {
-  transform: scale(1.012);
-  filter: saturate(1.04) contrast(1.02);
+  transform: none;
 }
 
 .publication-content {
@@ -297,6 +296,41 @@ a:hover {
   color: #475569;
   font-size: 0.93rem;
   line-height: 1.56;
+}
+
+.publication-note {
+  color: #64748b;
+  font-size: 0.82rem;
+}
+
+.home-intro .opportunity-note {
+  margin-top: 1rem;
+  color: #475569;
+  font-size: 0.94rem;
+}
+
+.intro-links {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 1rem;
+  font-size: 0.94rem;
+}
+
+.intro-links a:focus-visible,
+.publication-links a:focus-visible {
+  outline: 2px solid #1d4ed8;
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .publication-card,
+  .publication-media,
+  .contact-links a {
+    transition: none;
+    transform: none;
+  }
 }
 
 .publication-authors b {

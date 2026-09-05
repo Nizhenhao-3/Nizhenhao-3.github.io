@@ -2,7 +2,7 @@
 layout: about
 image: /assets/img/short_time_img.jpg
 description: >
-  About Zhenhao Ni - Research in Robot Learning and Simulation
+  Zhenhao Ni - Humanoid Robot Learning, Foundation Models, and Scalable Data Generation
 hide_description: true
 ---
 
@@ -10,13 +10,13 @@ hide_description: true
 
 <section class="home-intro">
   <div>
-    <p class="intro-kicker">Robotics Engineering · Embodied AI</p>
-    <p class="intro-lead">I am a senior undergraduate student majoring in Robotics Engineering at <a href="https://www.suda.edu.cn/" target="_blank">Soochow University</a>.</p>
-    <p>My current research interests primarily focus on Benchmarking-oriented Simulation, Humanoid Loco-manipulation, and Dexterous Manipulation.</p>
-    <div class="research-tags">
-      <span>Benchmarking Simulation</span>
-      <span>Humanoid Loco-manipulation</span>
-      <span>Dexterous Manipulation</span>
+    <p class="intro-kicker">Humanoid Robotics · Robot Learning</p>
+    <p class="intro-lead">I am a Research Intern at <a href="https://xvirobotics.com/">XVI Robotics</a>, working on humanoid robot learning. I received my B.Eng. in Robotics Engineering from <a href="https://www.suda.edu.cn/">Soochow University</a> in July 2026.</p>
+    <p>My research focuses on humanoid loco-manipulation, foundation models for robotics, and scalable robot data generation.</p>
+    <p class="opportunity-note">I am seeking PhD opportunities for Fall 2027 and am also interested in research assistant positions.</p>
+    <div class="intro-links">
+      <a href="{{ '/assets/Zhenhao_CV.pdf' | relative_url }}">Curriculum Vitae <span aria-hidden="true">↗</span></a>
+      <a href="mailto:zhenhaoni4@gmail.com">Email</a>
     </div>
   </div>
 </section>
@@ -32,6 +32,10 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 
 <div class="news-box">
 
+  <div class="news-item">
+    <time datetime="2026-09">Sep 2026</time>
+    <p>Our paper <a href="https://psi-lab.ai/SIMPLE">SIMPLE</a> has been accepted to <strong>CoRL 2026</strong>!</p>
+  </div>
   <div class="news-item">
     <time>Jun 2026</time>
     <p>Our paper <a href="https://psi-lab.ai/SIMPLE">SIMPLE</a> has been released.</p>
@@ -60,12 +64,12 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
     <img class="publication-media" src="assets/img/teaser.webp" alt="SIMPLE Teaser" />
 
     <div class="publication-content">
-      <strong class="publication-title">SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation</strong>
+      <strong class="publication-title">SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-Manipulation</strong>
       <p class="publication-authors">
       Songlin Wei*, <b>Zhenhao Ni</b>*, Jie Liu*, Zhenyu Zhao*, Junjie Ye, Hongyi Jing, Junkai Xia, Xiawei Liu, Michael Leong, Liang Heng, Di Huang, Yue Wang†
       </p>
       <div class="publication-badges">
-        <span class="venue-badge">arXiv, 2026</span>
+        <span class="venue-badge">Conference on Robot Learning (CoRL), 2026</span>
       </div>
 
       <div class="publication-links">
@@ -105,12 +109,14 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
   </div>
 {: .publication-list }
 
+<p class="publication-note">* Equal contribution. † Corresponding author.</p>
+
 ## Education
 
 <div class="profile-details">
   <div class="detail-row">
     <span class="detail-label">Soochow University</span>
-    <span class="detail-value">B.Eng. (Senior), Robotics Engineering · 2022 - Expected 2026</span>
+    <span class="detail-value">B.Eng. in Robotics Engineering · Sep 2022 – Jul 2026</span>
   </div>
 </div>
 
