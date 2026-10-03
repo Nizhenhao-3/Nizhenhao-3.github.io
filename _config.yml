@@ -57,17 +57,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  # - title: About
-  #   url: /about/
-  - title: Research
-    url: /research/
-
   - title: Blog
     url: /blog/
-  - title: Misc
-    url: /misc/
-  - title: CV
-    url: /assets/Zhenhao_CV.pdf
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..

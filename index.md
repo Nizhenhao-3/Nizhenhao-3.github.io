@@ -6,17 +6,18 @@ description: >
 hide_description: true
 ---
 
-# About
+# Zhenhao Ni
 
 <section class="home-intro">
   <div>
     <p class="intro-kicker">Humanoid Robotics · Robot Learning</p>
-    <p class="intro-lead">I am a Research Intern at <a href="https://xvirobotics.com/">XVI Robotics</a>, working on humanoid robot learning. I received my B.Eng. in Robotics Engineering from <a href="https://www.suda.edu.cn/">Soochow University</a> in July 2026.</p>
-    <p>My research focuses on humanoid loco-manipulation, foundation models for robotics, and scalable robot data generation.</p>
+    <p class="intro-lead">I am a Research Intern at <a href="https://xvirobotics.com/">XVI Robotics</a>, working on humanoid foundation models and robot learning. I received my B.Eng. in Robotics Engineering from <a href="https://www.suda.edu.cn/">Soochow University</a> in July 2026.</p>
+    <p>My research explores humanoid loco-manipulation, scalable simulation, and data generation for learning capable robot behaviors.</p>
     <p class="opportunity-note">I am seeking PhD opportunities for Fall 2027 and am also interested in research assistant positions.</p>
-    <div class="intro-links">
-      <a href="{{ '/assets/Zhenhao_CV.pdf' | relative_url }}">Curriculum Vitae <span aria-hidden="true">↗</span></a>
-      <a href="mailto:zhenhaoni4@gmail.com">Email</a>
+    <div class="research-tags" aria-label="Research areas">
+      <span>Humanoid foundation models</span>
+      <span>Loco-manipulation</span>
+      <span>Scalable robot data</span>
     </div>
   </div>
 </section>
@@ -61,7 +62,7 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
 ## Publications
 
 * <div class="publication-card">
-    <img class="publication-media" src="assets/img/teaser.webp" alt="SIMPLE Teaser" />
+    <img class="publication-media" src="/assets/img/teaser.webp" alt="SIMPLE Teaser" />
 
     <div class="publication-content">
       <strong class="publication-title">SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-Manipulation</strong>
@@ -84,7 +85,7 @@ I am a Remote Research Intern at the <a href="https://psi-lab.ai/" style="color:
   </div>
 
 * <div class="publication-card">
-    <img class="publication-media" src="assets/img/psi0.gif" alt="Ψ₀ Teaser" />
+    <img class="publication-media" src="/assets/img/psi0.gif" alt="Ψ₀ Teaser" />
     
     <div class="publication-content">
       <strong class="publication-title">Ψ₀: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation</strong>
