@@ -152,23 +152,14 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   line-height: 1.75;
 
   h2 {
-    display: flex;
-    align-items: center;
-    gap: 1.2rem;
-    margin: 2.5rem 0 1.3rem;
+    margin: 3rem 0 1.5rem;
     font-family: var(--home-serif);
-    font-size: 1.45rem;
+    font-size: 1.65rem;
     font-weight: 400;
     letter-spacing: -.015em;
     line-height: 1.35;
     scroll-margin-top: 5rem;
 
-    &::after {
-      content: "";
-      flex: 1;
-      height: 1px;
-      background: var(--home-rule);
-    }
   }
 
   p { margin-top: 0; }
@@ -178,8 +169,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 .home-intro {
   margin-bottom: 1.85rem;
-  p { margin-bottom: .85rem; }
-  p { line-height: 1.85; }
+  p { margin-bottom: .85rem; line-height: 1.85; }
   .intro-lead { color: #ddd8cf; }
 
   .opportunity-note {
@@ -191,6 +181,15 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     line-height: 1.7;
   }
 }
+
+// Override Hydejack's default link rules only for these compact resource lists.
+#_main .contact-links a, #_main .publication-links a {
+  border-bottom: 1px solid transparent;
+  box-shadow: none;
+  &:hover { border-bottom-color: var(--home-accent); }
+}
+
+.publication-links a span { margin-left: .4em; font-size: .85em; opacity: .65; }
 
 .contact-links, .publication-links {
   display: flex;
@@ -221,10 +220,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 .publication-card {
   display: grid;
-  grid-template-columns: minmax(0, 29%) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 28%) minmax(0, 1fr);
   align-items: start;
-  gap: 1.5rem;
-  padding: 1.5rem 0;
+  gap: 1.8rem;
+  padding: 1.8rem 0;
   border-bottom: 1px solid var(--home-rule);
 
   .publication-media-link {
@@ -232,13 +231,16 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
     margin-top: .2rem;
     border: 0;
     background: #171a20;
-    border-radius: 3px;
+    border-radius: 4px;
+    outline: 1px solid rgba(238, 233, 223, .12);
+    outline-offset: -1px;
     overflow: hidden;
     &::after { display: none; }
   }
 }
 
 .publication-list > li:first-child .publication-card { padding-top: .25rem; }
+.publication-list > li:last-child .publication-card { border-bottom: 0; padding-bottom: .6rem; }
 
 .publication-media {
   display: block;
@@ -254,9 +256,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 .publication-title {
   display: block;
-  margin: 0 0 .6rem;
-  font-size: 1rem;
-  line-height: 1.5;
+  margin: 0 0 .75rem;
+  font-size: 1.08rem;
+  line-height: 1.45;
   font-weight: 500;
   letter-spacing: -.015em;
   a { border: 0; text-decoration: none; }
@@ -266,36 +268,49 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .academic-home .publication-title a:hover { color: var(--home-accent); }
 
 .academic-home .publication-authors {
-  margin-bottom: .6rem;
+  margin-bottom: .65rem;
   color: var(--home-muted);
-  font-size: .74rem;
-  line-height: 1.65;
-  b { color: #e4dfd5; font-weight: 500; }
+  font-size: .79rem;
+  line-height: 1.75;
+  b { color: #e4dfd5; font-weight: 600; white-space: nowrap; }
+  sup { font-size: .75em; }
 }
 
-.publication-badges {
+.publication-venue {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .2rem .75rem;
+  margin-bottom: .6rem;
+  font-size: .7rem;
+  line-height: 1.65;
+  .venue-label { color: var(--home-accent); font-weight: 600; letter-spacing: .055em; }
+  .venue-name { color: var(--home-muted); }
+}
+
+.publication-award {
   display: flex;
   flex-wrap: wrap;
-  gap: .3rem .9rem;
-  margin-bottom: .35rem;
+  gap: .15rem .6rem;
+  margin-bottom: .5rem;
   font-size: .74rem;
-  line-height: 1.65;
+  line-height: 1.6;
 }
-
-.venue-badge { color: #deddd9; }
-.award-badge { color: var(--home-accent); }
 .award-context { color: var(--home-muted); }
 .award-highlight { color: var(--home-accent); font-weight: 500; }
-.publication-note { margin: .8rem 0 0; font-size: .7rem; color: var(--home-muted); }
+.publication-note { margin: .8rem 0 0; font-size: .73rem; color: var(--home-muted); }
+
+.home-details { margin-top: 3rem; padding-top: .3rem; border-top: 1px solid var(--home-rule); }
+.home-details h2 { font-size: 1.45rem; margin: 2rem 0 1.25rem; }
+.home-background { min-width: 0; }
 
 .news-item {
   display: grid;
-  grid-template-columns: 6.6rem minmax(0, 1fr);
+  grid-template-columns: 4.8rem minmax(0, 1fr);
   gap: 1rem;
-  padding: .7rem 0;
-  border-bottom: 1px solid var(--home-rule);
+  padding: 0 0 1.1rem;
   font-size: .82rem;
-  time { color: var(--home-muted); font-size: .76rem; }
+  time { color: var(--home-muted); font-size: .73rem; font-variant-numeric: tabular-nums; padding-top: .1rem; }
   p { margin: 0; }
 }
 
@@ -303,32 +318,46 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   font-size: .79rem;
   summary {
     width: fit-content;
-    padding: .8rem 0;
+    padding: .3rem 0 .9rem;
     color: var(--home-muted);
     cursor: pointer;
   }
 }
 
-.detail-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: .3rem 1.5rem;
+.education-entry {
   font-size: .82rem;
-  .detail-label { color: var(--home-heading); }
+  p { margin: 0 0 .25rem; }
+  .detail-label { color: var(--home-heading); font-weight: 500; font-size: .92rem; }
   .detail-value { color: var(--home-muted); }
+  .detail-dates { color: var(--home-muted); font-size: .74rem; margin-top: .5rem; font-variant-numeric: tabular-nums; }
 }
 
-.contact-note { color: var(--home-muted); font-size: .86rem; }
+.contact-note { color: var(--home-muted); font-size: .82rem; }
+.home-background section[aria-labelledby="contact"] > a { font-size: .85rem; overflow-wrap: anywhere; }
+
+// Keep the theme credit, with a quieter ending for this academic page.
+#_main.layout-about > .dingbat { display: none; }
+#_main.layout-about > article.page { margin-bottom: 3rem; }
+#_main.layout-about > footer {
+  color: var(--home-muted);
+  font-size: .76rem;
+}
+
+@media (min-width: 70em) {
+  .home-details { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 3rem; }
+  .home-background section + section h2 { margin-top: 2.25rem; }
+}
 
 @media (max-width: 42em) {
   .layout-about .page-title { font-size: 2.65rem; margin-bottom: 1.1rem; }
   .academic-home { font-size: .95rem; }
-  .academic-home h2 { margin-top: 2.1rem; font-size: 1.4rem; gap: .9rem; }
+  .academic-home h2 { margin-top: 2.1rem; font-size: 1.5rem; }
   .publication-card { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
   .publication-card .publication-media-link { max-width: 28rem; }
   .publication-title { font-size: 1.05rem; }
-  .academic-home .publication-authors, .publication-badges { font-size: .82rem; }
+  .academic-home .publication-authors { font-size: .82rem; }
+  .publication-venue { font-size: .74rem; }
+  .publication-award { font-size: .79rem; }
   .news-item { grid-template-columns: 5.25rem minmax(0, 1fr); gap: .65rem; }
 }
 
