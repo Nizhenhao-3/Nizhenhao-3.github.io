@@ -1,29 +1,67 @@
-// Deep-space palette on Hydejack's native layout and drawer geometry.
+// Day and deep-space night palettes on Hydejack's native layout and drawer geometry.
 // Theme owns widths, positioning, transforms, and breakpoints.
 html {
   --font-family: "Inter", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-family-heading: "Inter", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --home-heading: #eee9df;
-  --home-muted: #afada8;
-  --home-accent: #d7c3a1;
-  --home-rule: rgba(221, 210, 191, .13);
   --home-serif: "DM Serif Display", "Iowan Old Style", Georgia, serif;
 }
 
+// Tokens cover the reading surface, links and native Hydejack UI together.
+@mixin home-light {
+  color-scheme: light;
+  --body-bg: #f5f2eb;
+  --body-color: #45474b;
+  --home-heading: #25292e;
+  --home-muted: #626463;
+  --home-accent: #775831;
+  --home-rule: rgba(69, 62, 48, .17);
+  --home-intro: #373b40;
+  --home-surface-rgb: 245, 242, 235;
+  --home-sky-opacity: .94;
+  --home-sky-edge: .94;
+  --home-control-active: rgba(112, 87, 51, .11);
+  --border-color: #d9d5cc;
+  --gray: #626463;
+  --gray-bg: #eae6de;
+  --gray-text: #545754;
+  --menu-text: #626463;
+  --code-color: #775831;
+  --code-bg: #eae6de;
+}
+
+@mixin home-dark {
+  color-scheme: dark;
+  --body-bg: #24262a;
+  --body-color: #dedbd4;
+  --home-heading: #f4f0e7;
+  --home-muted: #bcb9b1;
+  --home-accent: #e3cba3;
+  --home-rule: rgba(229, 216, 194, .18);
+  --home-intro: #e8e3da;
+  --home-surface-rgb: 36, 38, 42;
+  --home-sky-opacity: .68;
+  --home-sky-edge: .38;
+  --home-control-active: rgba(227, 203, 163, .12);
+  --border-color: #48494b;
+  --gray: #bcb9b1;
+  --gray-bg: #2d3035;
+  --gray-text: #d0cbc1;
+  --menu-text: #bcb9b1;
+  --dark-mode-body-bg: #24262a;
+  --dark-mode-border-color: #48494b;
+  --code-color: #e3cba3;
+  --code-bg: #2d3035;
+}
+
 @media screen {
-  body, body.dark-mode, body.light-mode {
-    color-scheme: dark;
-    --body-bg: #191b1e;
-    --body-color: #ccc9c2;
-    --border-color: #363735;
-    --gray: #afada8;
-    --gray-bg: #222427;
-    --gray-text: #bdbab4;
-    --menu-text: #afada8;
-    --dark-mode-body-bg: #191b1e;
-    --dark-mode-border-color: #363735;
-    --code-color: #dec9aa;
-    --code-bg: #222427;
+  body, body.light-mode { @include home-light; }
+  html[data-color-mode="light"] body { @include home-light; }
+  html[data-color-mode="dark"] body { @include home-dark; }
+  // Native system preference still works if JavaScript is unavailable.
+  @media (prefers-color-scheme: dark) {
+    html:not([data-color-mode]) body { @include home-dark; }
+  }
+  body {
     color: var(--body-color);
     background-color: var(--body-bg);
     background-image: radial-gradient(ellipse at 70% 0, rgba(191, 166, 127, .09), transparent 48rem);
@@ -59,15 +97,15 @@ h1, h2, h3, h4, h5, h6 {
   body:has(#_main.layout-about) {
     background-image:
       radial-gradient(ellipse at 50% 0, rgba(189, 164, 125, .1), transparent 65%),
-      linear-gradient(180deg, rgba(25, 27, 30, .74), #191b1e 42rem),
-      linear-gradient(90deg, #191b1e 15%, rgba(25, 27, 30, .55) 60%, rgba(25, 27, 30, .3)),
+      linear-gradient(180deg, rgba(var(--home-surface-rgb), var(--home-sky-opacity)), var(--body-bg) 42rem),
+      linear-gradient(90deg, var(--body-bg) 15%, rgba(var(--home-surface-rgb), var(--home-sky-edge)) 80%),
       var(--home-sky);
     background-size: 100% 48rem;
     background-position: right top;
     background-repeat: no-repeat;
 
     #_navbar {
-      background-color: rgba(25, 27, 30, .6);
+      background-color: rgba(var(--home-surface-rgb), .82);
       -webkit-backdrop-filter: blur(18px);
       backdrop-filter: blur(18px);
     }
@@ -77,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .layout-about .page-title + .hr {
     height: 1px;
-    background: linear-gradient(90deg, rgba(215, 195, 161, .3), rgba(215, 195, 161, .04) 75%, transparent);
+    background: linear-gradient(90deg, var(--home-rule), transparent);
     border: 0;
   }
 }
@@ -102,7 +140,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 
 .sidebar-bg.sidebar-overlay::after {
-  background: linear-gradient(180deg, rgba(4, 6, 9, .22), rgba(4, 6, 9, .52) 45%, rgba(4, 6, 9, .72));
+  background: linear-gradient(180deg, rgba(4, 6, 9, .16), rgba(4, 6, 9, .4) 45%, rgba(4, 6, 9, .59));
 }
 
 .sidebar-about .avatar {
@@ -146,6 +184,40 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 
 .sidebar-social { margin-top: 1.6rem; color: #c4c3c6; }
+.sidebar a { color: #eee9df; }
+
+.theme-picker {
+  display: flex;
+  align-items: center;
+  gap: .15rem;
+  margin: 0 .4rem 0 auto;
+  padding: .2rem;
+  min-width: 0;
+  border: 1px solid var(--home-rule);
+  border-radius: 999px;
+  font-family: var(--font-family);
+  label { position: relative; margin: 0; cursor: pointer; }
+  input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+  }
+  input + span {
+    display: grid;
+    place-items: center;
+    min-height: 2.25rem;
+    min-width: 3rem;
+    padding: 0 .6rem;
+    border-radius: 999px;
+    color: var(--home-muted);
+    font-size: .74rem;
+    line-height: 1;
+  }
+  input:checked + span { background: var(--home-control-active); color: var(--home-accent); }
+  input:focus-visible + span { outline: 2px solid var(--home-accent); outline-offset: 2px; }
+  label:hover input + span { color: var(--home-heading); }
+}
 
 .academic-home {
   font-size: .95rem;
@@ -170,12 +242,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .home-intro {
   margin-bottom: 1.85rem;
   p { margin-bottom: .85rem; line-height: 1.85; }
-  .intro-lead { color: #ddd8cf; }
+  .intro-lead { color: var(--home-intro); }
 
   .opportunity-note {
     margin: 1rem 0 0;
     padding-left: .9rem;
-    border-left: 1px solid #9c8968;
+    border-left: 1px solid var(--home-accent);
     color: var(--home-muted);
     font-size: .81rem;
     line-height: 1.7;
@@ -272,7 +344,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   color: var(--home-muted);
   font-size: .79rem;
   line-height: 1.75;
-  b { color: #e4dfd5; font-weight: 600; white-space: nowrap; }
+  b { color: var(--home-heading); font-weight: 600; white-space: nowrap; }
   sup { font-size: .75em; }
 }
 
@@ -340,7 +412,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 #_main.layout-about > article.page { margin-bottom: 3rem; }
 #_main.layout-about > footer {
   color: var(--home-muted);
-  font-size: .76rem;
+  font-size: .85rem;
 }
 
 @media (min-width: 70em) {
@@ -363,6 +435,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 @media (pointer: coarse) {
   .contact-links a, .publication-links a, .news-archive summary { min-height: 44px; }
+  .theme-picker input + span { min-height: 44px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -370,6 +443,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 
 @media print {
+  .theme-picker { display: none; }
   html { --home-heading: #111; --home-muted: #444; --home-accent: #333; --home-rule: #ccc; }
   body { color: #111 !important; background: white !important; }
   .academic-home, .academic-home * { color: #111 !important; }
